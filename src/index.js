@@ -22,8 +22,9 @@ class Order extends React.Component {
 
 Order.propTypes = {
   cone: PropTypes.bool,
-  size: PropTypes.string
- PropTypes.arrayOf(PropTypes.string).isRequired
+  size: PropTypes.string,
+ PropTypes.arrayOf(PropTypes.string).isRequired, 
+ orderInfo: PropTypes.object.isRequired
 };
 
 Order.defaultProps = {
