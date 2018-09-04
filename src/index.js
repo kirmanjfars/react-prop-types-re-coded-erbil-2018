@@ -19,6 +19,11 @@ class Order extends React.Component {
   }
 }
 
+
+Order.propTypes = {
+  cone: PropTypes.bool
+};
+
 Order.defaultProps = {
   cone: true,
   size: 'regular'
