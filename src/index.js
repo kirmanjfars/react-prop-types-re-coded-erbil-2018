@@ -21,7 +21,8 @@ class Order extends React.Component {
 
 
 Order.propTypes = {
-  cone: PropTypes.bool
+  cone: PropTypes.bool,
+  size: PropTypes.string
 };
 
 Order.defaultProps = {
@@ -29,7 +30,6 @@ Order.defaultProps = {
   size: 'regular'
 };
  
-Order.propTypes = {};
 
 
 
